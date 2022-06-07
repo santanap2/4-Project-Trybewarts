@@ -67,6 +67,7 @@ body {
 
 .main-container {
   display: flex;
+  margin-top: 80px;
 }
 
 #evaluation-form {
@@ -74,3 +75,8 @@ body {
   flex-direction: column;
   width: 675px;
 }
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
