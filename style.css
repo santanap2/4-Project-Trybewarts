@@ -24,6 +24,11 @@ body {
   align-self: flex-start;
 }
 
+#trybewarts-header-title {
+  font-size: 48px;
+  align-self: center;
+}
+
 .trybewarts-login {
   display: flex;
   flex-direction: row;
@@ -34,15 +39,38 @@ body {
 #email {
   padding: 10px;
   border-radius: 8px;
+  border: 0;
+  align-self: flex-start;
+  width: 200px;
 }
 
 #senha {
   padding: 10px;
   margin-left: 10px;
   border-radius: 8px;
+  border: 0;
+  align-self: center;
+  width:100px;
+  
 }
 .login-btn {
   padding: 10px;
   margin-left: 10px;
   border-radius: 8px;
+  border: 0;
+  align-self: flex-end;
+  width: 80px;
+  background-color: rgb(85, 19, 60);
+  color: white;
+  font-weight: 900;
+}
+
+.main-container {
+display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
 }
