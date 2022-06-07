@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(50, 167, 145);
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.trybewarts-header-logo {
+  width: 60px;
+  align-self: flex-start;
+}
+
+.title {
+align-self: center;
+margin: auto;
+font-weight: bold;
+}
