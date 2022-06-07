@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color:gainsboro;
+  background-color: gainsboro;
 }
 
 .header {
@@ -50,9 +50,9 @@ body {
   border-radius: 8px;
   border: 0;
   align-self: center;
-  width:100px;
-  
+  width: 100px;
 }
+
 .login-btn {
   padding: 10px;
   margin-left: 10px;
@@ -66,7 +66,7 @@ body {
 }
 
 .main-container {
-display: flex;
+  display: flex;
 }
 
 #evaluation-form {
