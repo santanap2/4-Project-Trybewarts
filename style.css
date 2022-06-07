@@ -4,9 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color:gainsboro;
+}
+
 .header {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   background-color: rgb(50, 167, 145);
   color: white;
   font-size: 30px;
@@ -19,7 +25,30 @@
 }
 
 .title {
-align-self: center;
-margin: auto;
-font-weight: bold;
+  align-self: center;
+  margin: auto;
+  font-weight: bold;
+}
+
+.trybewarts-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#email {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#senha {
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 8px;
+}
+.login-btn {
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 8px;
 }
