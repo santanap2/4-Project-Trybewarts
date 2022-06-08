@@ -68,6 +68,9 @@ body {
 .main-container {
   display: flex;
   margin-top: 80px;
+  justify-content: center;
+  align-items: flex-start;
+
 }
 
 #trybewarts-forms-logo {
@@ -78,4 +81,27 @@ body {
   display: flex;
   flex-direction: column;
   width: 675px;
+}
+
+#form-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#name-lastname, #email-house {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+#input-name, #input-lastname, #input-email, #house {
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
+  background-color: white;
+  width: 300px;
+}
+
+#house {
+  width: 255px
 }
