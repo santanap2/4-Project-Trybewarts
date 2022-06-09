@@ -103,5 +103,34 @@ body {
 }
 
 #house {
-  width: 255px
+  width: 260px;
+}
+
+.labels-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.checkbox-subjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-3, .last-3 {
+  display: flex;
+  justify-content: space-around;
 }
