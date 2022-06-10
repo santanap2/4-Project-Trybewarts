@@ -16,7 +16,6 @@ body {
   align-items: center;
   background-color: rgb(50, 167, 145);
   color: white;
-  font-size: 30px;
   padding: 10px;
 }
 
@@ -71,7 +70,6 @@ body {
   margin-top: 80px;
   justify-content: center;
   align-items: flex-start;
-
 }
 
 #trybewarts-forms-logo {
@@ -82,6 +80,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 675px;
+  margin-bottom: 20px;
 }
 
 #form-title {
@@ -162,4 +161,27 @@ body {
   border-radius: 8px;
   border: 0;
   resize: none;
+}
+
+#agreement {
+  margin: 0 5px;
+}
+
+#submit-btn {
+  margin: 20px 0;
+  width: 675px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0;
+  background-color: rgb(85, 19, 60);
+  color: white;
+  font-weight: 900;
+}
+
+.footer {
+  background-color: rgb(50, 167, 145);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
 }
