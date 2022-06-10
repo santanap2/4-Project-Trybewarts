@@ -88,17 +88,13 @@ body {
   margin-bottom: 20px;
 }
 
-#name-lastname,
-#email-house {
+#name-lastname , #email-house {
   margin: 10px 0;
   display: flex;
   justify-content: space-around;
 }
 
-#input-name,
-#input-lastname,
-#input-email,
-#house {
+#input-name , #input-lastname , #input-email , #house {
   padding: 10px;
   border: 0;
   border-radius: 8px;
@@ -134,8 +130,7 @@ body {
   justify-content: center;
 }
 
-.first-3,
-.last-3 {
+.first-3 , .last-3 {
   display: flex;
   justify-content: space-around;
 }
