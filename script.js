@@ -13,7 +13,6 @@ function inputVerification() {
 
 loginButton.addEventListener('click', inputVerification);
 
-
 // Requisito 18 //
 
 function enableCheckbox() {
@@ -21,8 +20,8 @@ function enableCheckbox() {
   const buttonCheckbox = document.querySelector('#agreement');
   buttonSubmitt.disabled = !buttonCheckbox.checked;
 }
-window.onload = function () {
+
+window.onload = function a() {
   const buttonCheckbox = document.querySelector('#agreement');
   buttonCheckbox.addEventListener('change', enableCheckbox);
 };
-
