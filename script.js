@@ -25,3 +25,14 @@ window.onload = function a() {
   const buttonCheckbox = document.querySelector('#agreement');
   buttonCheckbox.addEventListener('change', enableCheckbox);
 };
+
+// Requisito 20 //
+
+function contador() {
+  const cont = document.getElementById('counter');
+  const textArea = document.getElementById('textarea');
+  cont.innerText = 500 - (textArea.value.length);
+}
+
+const textArea = document.getElementById('textarea');
+textArea.addEventListener('input', contador);
