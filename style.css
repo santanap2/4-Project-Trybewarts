@@ -68,7 +68,7 @@ body {
 .main-container {
   display: flex;
   margin-top: 80px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
 }
 
@@ -145,9 +145,20 @@ body {
 }
 
 .textarea {
-  margin: 20px 0;
+  margin: 20px 0 0 0;
   display: flex;
   flex-direction: column;
+}
+
+#textarea {
+  resize: none;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+}
+
+#remaining-characters {
+  margin: 0 0 20px 0;
 }
 
 #coment-textarea {
@@ -163,7 +174,7 @@ body {
 }
 
 #submit-btn {
-  margin: 20px 0;
+  margin: 40px 0 0 0;
   width: 675px;
   padding: 10px;
   border-radius: 8px;
@@ -179,4 +190,8 @@ body {
   text-align: center;
   color: white;
   font-weight: 700;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }

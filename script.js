@@ -14,7 +14,6 @@ function inputVerification() {
 loginButton.addEventListener('click', inputVerification);
 
 // Requisito 18 //
-
 function enableCheckbox() {
   const buttonSubmitt = document.querySelector('#submit-btn');
   const buttonCheckbox = document.querySelector('#agreement');
@@ -27,7 +26,6 @@ window.onload = function a() {
 };
 
 // Requisito 20 //
-
 function contador() {
   const cont = document.getElementById('counter');
   const textArea = document.getElementById('textarea');
@@ -36,3 +34,5 @@ function contador() {
 
 const textArea = document.getElementById('textarea');
 textArea.addEventListener('input', contador);
+
+// Requisito 21
